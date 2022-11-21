@@ -194,11 +194,19 @@ width: 38px;
   font-size: 20px;
   width: 100%;
 }
+.section1 span{
+  font-size: 30px;
+  
+}
   }
   @media (max-width:546px) {
     .section1 p{
       font-size: 15px;
       width: 100%;
+    }
+    .section1 span{
+      font-size: 25px;
+      
     }
       }
       @media (max-width:280px) {
@@ -206,5 +214,15 @@ width: 38px;
           font-size: 12px;
           width: 100%;
         }
+        .section1 span{
+          font-size: 22px;
+          
+        }
           }
      
+      .section1 span{
+    color: white;
+    font-size: 50px;
+    padding-bottom: 20px;
+    font-weight: 900;
+  }
