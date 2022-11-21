@@ -16,7 +16,7 @@ padding: 10px 0;
 }
 /* this code control on nav-bar image*/
 .nav-bar img {
-   width: 50px;
+   width: 140px;
    margin-left: 15px; 
    
 }
@@ -62,7 +62,7 @@ padding: 10px 0;
   }
   @media (max-width:644px){
     .nav-bar img{
-width: 38px;
+width: 120px;
     }
   }
   /* end of header* /
