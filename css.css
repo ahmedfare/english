@@ -252,3 +252,8 @@ width: 38px;
    color: white;
    padding: 40px; 
   }
+@media (max-width:448px){
+    .section2{
+      width: 100%;
+    }
+  }
