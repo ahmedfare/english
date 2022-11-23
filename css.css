@@ -298,3 +298,12 @@ color: white;
   margin-top: 20px;
  }
 }
+@media (max-width:1149px){
+  #carouselExampleIndicators{width: 425px;  }
+  #carouselExampleIndicators2{width: 425px;  }
+  #carouselExampleIndicators3{width: 425px;  }
+  #carouselExampleIndicators4{width: 425px;  }
+  #images-elasema{
+    width: 100%;
+  }
+ }
