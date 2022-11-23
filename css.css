@@ -303,7 +303,14 @@ color: white;
   #carouselExampleIndicators2{width: 425px;  }
   #carouselExampleIndicators3{width: 425px;  }
   #carouselExampleIndicators4{width: 425px;  }
+@media (max-width:1149px){
+  #carouselExampleIndicators{width: 425px;  }
+  #carouselExampleIndicators2{width: 425px;  }
+  #carouselExampleIndicators3{width: 425px;  }
+  #carouselExampleIndicators4{width: 425px;  }
   #images-elasema{
-    width: 100%;
+    width: 80%;
+      margin:auto;
   }
+ }
  }
