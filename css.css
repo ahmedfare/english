@@ -286,3 +286,7 @@ color: white;
 .ttt{
   color: white;
 }
+.modee{
+  display: flex;
+  flex-direction: row;
+}
