@@ -299,15 +299,15 @@ color: white !important;
  }
 }
 @media (max-width:1149px){
-  #carouselExampleIndicators{width: 425px;  }
-  #carouselExampleIndicators2{width: 425px;  }
-  #carouselExampleIndicators3{width: 425px;  }
-  #carouselExampleIndicators4{width: 425px;  }
+  #carouselExampleIndicators{width: 350px;  }
+  #carouselExampleIndicators2{width: 350px;  }
+  #carouselExampleIndicators3{width: 350px;  }
+  #carouselExampleIndicators4{width: 350px;  }
 @media (max-width:1149px){
-  #carouselExampleIndicators{width: 425px;  }
-  #carouselExampleIndicators2{width: 425px;  }
-  #carouselExampleIndicators3{width: 425px;  }
-  #carouselExampleIndicators4{width: 425px;  }
+  #carouselExampleIndicators{width: 350px;  }
+  #carouselExampleIndicators2{width: 350px;  }
+  #carouselExampleIndicators3{width: 350px;  }
+  #carouselExampleIndicators4{width: 350px;  }
   #images-elasema{
     width: 80%;
       margin:auto;
