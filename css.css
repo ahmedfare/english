@@ -334,3 +334,10 @@ color: white !important;
     align-items: center;
     text-align: left;
   }
+  @media (max-width:370px){
+    #carouselExampleIndicators4{width: 270px;  }
+    #carouselExampleIndicators{width: 270px;  }
+    #carouselExampleIndicators2{width: 270px;  }
+    #carouselExampleIndicators3{width: 270px;  }
+    
+    }
