@@ -341,3 +341,22 @@ color: white !important;
     #carouselExampleIndicators3{width: 270px;  }
     
     }
+.nav-bar{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  
+}
+
+.head2{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 999;
+}
+.section1 span{
+  margin-top: 150px;
+}
