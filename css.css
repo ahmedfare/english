@@ -381,4 +381,6 @@ color: white !important;
 .modee{
   display: flex;
   flex-direction: row;
+      line-height: 60px;
+
 }
