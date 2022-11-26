@@ -378,3 +378,7 @@ color: white !important;
 .ar img{
   width: 50px;
 }
+.modee{
+  display: flex;
+  flex-direction: row;
+}
