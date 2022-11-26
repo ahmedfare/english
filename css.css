@@ -358,11 +358,11 @@ color: white !important;
   z-index: 999;
 }
 .section1 span{
-  margin-top: 170px;
+  margin-top: 17px;
 }
 @media (max-width:475px){
     .section1{
-    height:850px
+    height:810px
     }
 }   
 .to-up{
