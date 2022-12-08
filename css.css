@@ -1,386 +1,393 @@
-@import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
-*{
-    font-family: 'Baskervville', serif;  
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth; 
+@import url("https://fonts.googleapis.com/css2?family=Baskervville&display=swap");
+* {
+  font-family: "Baskervville", serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
 }
-/* this code control the nav-bar content*/
-.nav-bar{
-background-color: #f0f0f0;
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 10px 0;
 
+.el-asema-content {
+  margin-left: 30px;
 }
-/* this code control on nav-bar image*/
+
+footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  background-color: #121212;
+  color: white;
+  padding: 40px;
+}
+
+.addtheme {
+  background-color: #292929 !important;
+  color: white !important;
+}
+#theme {
+  cursor: pointer;
+}
+
+.container-fluid {
+  background-color: #f0f0f0 !important;
+}
+#navbarNav {
+  align-items: center;
+  text-align: left;
+}
+
+.darkcolortoup {
+  filter: invert(100%) sepia(35%) saturate(183%) hue-rotate(296deg)
+    brightness(110%) contrast(107%);
+}
+#ar {
+  width: 50px;
+}
+
+/* start of header section (1) */
+/* ######################## */
+
+/* this is the buttom that go to up (start) */
+.to-up-a {
+  color: black;
+  font-size: 50px;
+}
+.to-up {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 50px;
+  color: black;
+  z-index: 999;
+  opacity: 0.8;
+}
+/* this is the buttom that go to up (end) */
+/* this is the nav-bar (start) */
+.nav-bar {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 999;
+}
+/* egypt eagle photo */
 .nav-bar img {
-   width: 140px;
-   margin-left: 15px; 
-   
+  width: 140px;
+  margin-left: 15px;
 }
-/* this code design the language bottom*/
-.lang{
-   margin-right: 15px; 
-   text-decoration: none;
-   font-size: 25px;
-   color: #58A7B6;
-   transition: 0.3;
+/* nav-bar links */
+.nav-bar-content a {
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #58a7b6;
+  transition: 0.3s;
 }
-.lang:hover{
-    color: #9b159b;
+.nav-bar-content a:hover {
+  color: #9b159b;
 }
-.nav-bar-content a{
-   margin-right: 20px;
-   text-decoration: none;
-   font-size: 20px;
-   color: #58A7B6;
-   transition: 0.3s; 
-}
-.nav-bar-content a:hover{
-   color: #9b159b; 
-}
-@media (max-width:910px){
-.nav-bar-content a{
+@media (max-width: 910px) {
+  .nav-bar-content a {
     font-size: 15px;
-}    
-.lang{
+  }
+  .lang {
     font-size: 20px;
+  }
 }
-}
-@media (max-width:716px){
-    .nav-bar-content a{
-        font-size: 13px;
-    }    
-    .lang{
-        font-size: 18px;
-    }
-    }
-  .nav-bar-content{
-    text-align: center;
-  }
-  @media (max-width:644px){
-    .nav-bar img{
-width: 100px;
-    }
-  }
-  /* end of header* /
-  /* start of section 1 */
-  .section1{
-    background-image: url(wallpapersden.com_pyramid-4k-moon_3840x2160.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 700px;
-    opacity: 0.9    ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .section1 span{
-    color: white;
-    font-size: 50px;
-    padding-bottom: 20px;
-    font-weight: 900;
-          margin-bottom: 23px;
-  }
-  .section1 p{
-   color:rgb(255, 255, 255);
-   font-size: 28px;
-   width: 100%;
-   text-align: center;
-   line-height: 47px; 
-   font-weight: 900;
-   transition: 0.5s;
-       background-color: rgba(0, 0, 0, 0.204);
 
+@media (max-width: 716px) {
+  .nav-bar-content a {
+    font-size: 13px;
   }
- @media (max-width:370px){
-   .section1 p{
+  .lang {
+    font-size: 18px;
+  }
+}
+.nav-bar-content {
+  text-align: center;
+}
+@media (max-width: 644px) {
+  .nav-bar img {
+    width: 100px;
+  }
+}
+
+.modee {
+  display: flex;
+  flex-direction: row;
+  line-height: 60px;
+}
+.lang {
+  margin-right: 15px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #58a7b6;
+  transition: 0.3;
+}
+.lang:hover {
+  color: #9b159b;
+}
+.nav-link:hover {
+  color: #9b159b !important;
+}
+.nav-link {
+  color: #58a7b6 !important;
+}
+
+.head2 {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 999;
+}
+@media (max-width: 800px) {
+  .nav-bar {
+    display: none;
+  }
+  .head2 {
+    display: inline;
+  }
+}
+
+/* this is the nav-bar (end) */
+
+/* end of header section */
+/* ############################## */
+/* start of section 1 "the page info" (start) */
+.section1 {
+  background-image: url(wallpapersden.com_pyramid-4k-moon_3840x2160.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section1 span {
+  color: white;
+  font-size: 50px;
+  padding-bottom: 20px;
+  font-weight: 900;
+  margin-bottom: 23px;
+}
+.section1 p {
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  width: 100%;
+  text-align: center;
+  line-height: 47px;
+  font-weight: 900;
+  transition: 0.5s;
+  background-color: rgba(0, 0, 0, 0.204);
+}
+@media (max-width: 370px) {
+  .section1 p {
     line-height: 35px;
-   }
   }
+}
+@media (max-width: 905px) {
+  .section1 p {
+    font-size: 20px;
+    width: 100%;
+  }
+  .section1 span {
+    font-size: 30px;
+  }
+}
+@media (max-width: 546px) {
+  .section1 p {
+    font-size: 15px;
+    width: 100%;
+  }
+  .section1 span {
+    font-size: 25px;
+  }
+}
+@media (max-width: 280px) {
+  .section1 p {
+    font-size: 12px;
+    width: 100%;
+  }
+  .section1 span {
+    font-size: 22px;
+  }
+}
+.section1 span {
+  margin-top: 17px;
+}
+@media (max-width: 475px) {
+  .section1 {
+    height: 810px;
+  }
+}
 
-  /* end of section1*/
-  /* start of section2 */
-  #images-elasema{
-    width: 570px !important; 
-    height: 350px ;
-    
-  }
-  .new-add{
-   text-align: center;
-   padding-top: 70px;
-   padding-bottom: 70px;
-   font-size: 30px;
-  letter-spacing: 1.5px; 
-  }
- #carouselExampleIndicators{
-  width:570px;
-  
- }
- #carouselExampleIndicators2{
-  width:570px;
-  
- }
- #carouselExampleIndicators3{
-  width:570px;
-  
- }#carouselExampleIndicators4{
-  width:570px;
-  
- }
- .section2{
+/* start of section 1 "the page info" (end) */
+/* ####################################### */
+/* start of all sections comman (start) */
+.new-add {
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  font-size: 30px;
+  letter-spacing: 1.5px;
+}
+.section-main {
   display: flex;
   width: 80%;
   justify-content: center;
   text-align: center;
   align-items: center;
   margin: auto;
- }
- .el-asema-content{
-  margin-left: 30px;
- }
- @media (max-width:1149px) {
-  #carouselExampleIndicators{
+}
+
+@media (max-width: 780px) {
+  .section-main {
+    display: flex;
+    flex-direction: column;
+  }
+  .el-asema-content {
+    margin-top: 15px;
+  }
+  .el-asema-content p {
+    font-size: 14px;
+  }
+}
+.section-main {
+  background-color: #fafafa;
+  padding: 10px 20px;
+  border-radius: 7px;
+  box-shadow: 0 5px 30px rgb(1 1 1 / 25%);
+}
+.section-main p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: left;
+}
+@media (max-width: 448px) {
+  .section-main {
+    width: 100%;
+  }
+}
+@media (max-width: 1309px) {
+  .section-main {
+    flex-direction: column;
+  }
+  .section-main p {
+    margin-top: 20px;
+  }
+}
+/* start of all sections comman (end) */
+/* ############################# */
+/* all images of section (start) */
+#main-images {
+  width: 570px !important;
+  height: 350px;
+}
+#carouselExampleIndicators {
+  width: 570px;
+}
+#carouselExampleIndicators2 {
+  width: 570px;
+}
+#carouselExampleIndicators3 {
+  width: 570px;
+}
+#carouselExampleIndicators4 {
+  width: 570px;
+}
+@media (max-width: 1149px) {
+  #carouselExampleIndicators {
+    width: 350px;
+  }
+  #carouselExampleIndicators2 {
+    width: 350px;
+  }
+  #carouselExampleIndicators3 {
+    width: 350px;
+  }
+  #carouselExampleIndicators4 {
+    width: 350px;
+  }
+  #main-images {
+    width: 80%;
+    margin: auto;
+  }
+}
+@media (max-width: 1149px) {
+  #carouselExampleIndicators {
     width: 300px;
   }
-  #images-elasema{
+  #main-images {
     width: 450px;
     height: 250px;
   }
-  #carouselExampleIndicators2{
+  #carouselExampleIndicators2 {
     width: 300px;
   }
-  #carouselExampleIndicators3{
-    width: 300px;
-  }  #carouselExampleIndicators4{
+  #carouselExampleIndicators3 {
     width: 300px;
   }
-  .el-asema-content p{
-  font-size: 13px;
+  #carouselExampleIndicators4 {
+    width: 300px;
   }
-  .section2{
+  .el-asema-content p {
+    font-size: 13px;
+  }
+  .section-main {
     width: 70%;
   }
-  .new-add{
+  .new-add {
     font-size: 25px;
   }
- }
- @media (max-width:855px) {
-  #carouselExampleIndicators{
+}
+@media (max-width: 855px) {
+  #carouselExampleIndicators {
     width: 300px;
   }
-  #images-elasema{
+  #main-images {
     width: 350px;
     height: 200px;
   }
-  #carouselExampleIndicators2{
+  #carouselExampleIndicators2 {
     width: 300px;
   }
-  #carouselExampleIndicators3{
-    width: 300px;
-  } #carouselExampleIndicators4{
+  #carouselExampleIndicators3 {
     width: 300px;
   }
-  .el-asema-content p{
-  font-size: 10px;
+  #carouselExampleIndicators4 {
+    width: 300px;
   }
-  .section2{
+  .el-asema-content p {
+    font-size: 10px;
+  }
+  .section-main {
     width: 70%;
   }
- }
- @media (max-width:780px) {
- .section2{
-  display: flex;
-  flex-direction: column;
- }
- .el-asema-content{
-  margin-top: 15px;
- }
- .el-asema-content p{
-  font-size: 14px;
- 
- }
- }
- @media (max-width:905px) {
-.section1 p{
-  font-size: 20px;
-  width: 100%;
 }
-.section1 span{
-  font-size: 30px;
-  
-}
+@media (max-width: 370px) {
+  #carouselExampleIndicators4 {
+    width: 270px;
   }
-  @media (max-width:546px) {
-    .section1 p{
-      font-size: 15px;
-      width: 100%;
-    }
-    .section1 span{
-      font-size: 25px;
-      
-    }
-      }
-      @media (max-width:280px) {
-        .section1 p{
-          font-size: 12px;
-          width: 100%;
-        }
-        .section1 span{
-          font-size: 22px;
-          
-        }
-          }
-     
-     
- .section2{
-    background-color: #fafafa;
-    padding: 10px 20px;
-    border-radius: 7px;
-    box-shadow: 0 5px 30px rgb(1 1 1 / 25%);
+  #carouselExampleIndicators {
+    width: 270px;
   }
-  .section2 p{
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 40px;
-    text-align:left ;
-
+  #carouselExampleIndicators2 {
+    width: 270px;
   }
-  footer{
-   display: flex;
-   justify-content: center;
-   flex-direction: column;
-   align-items: center;
-   margin-top: 50px;
-   background-color: #121212;
-   color: white;
-   padding: 40px; 
+  #carouselExampleIndicators3 {
+    width: 270px;
   }
-@media (max-width:448px){
-    .section2{
-      width: 100%;
-    }
-  }
- .to-up{
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-    opacity: 1;
-      font-size: 50px; 
-     color: black;
- }
-.addtheme{
- background-color: #292929 !important;
-color: white !important;
-}
-#theme{
-  cursor: pointer;
-}
-.to-up-a{
- color: black;
- font-size: 50px; 
-}
-.ttt{
-  color: white;
-}
-.modee{
-  display: flex;
-  flex-direction: row;
-}
-@media (max-width:1309px){
- .section2{
- flex-direction: column; 
- } 
- .section2 p {
-  margin-top: 20px;
- }
 }
 
-@media (max-width:1149px){
-  #carouselExampleIndicators{width: 350px;  }
-  #carouselExampleIndicators2{width: 350px;  }
-  #carouselExampleIndicators3{width: 350px;  }
-  #carouselExampleIndicators4{width: 350px;  }
-  #images-elasema{
-    width: 80%;
-      margin:auto;
-  }
- }
- 
- .head2{
-    display: none;
-  }
-  @media (max-width:800px) {
-    .nav-bar{
-      display: none;
-    }
-    .head2{
-      display: inline;
-    }
-  }
-  .nav-link:hover{
-      color: #9b159b !important;
-  }
-  .nav-link{
-    color: #58A7B6 !important;
-  }
-  .container-fluid{
-    background-color: #f0f0f0 !important;
-  }
- #navbarNav{
-    align-items: center;
-    text-align: left;
-  }
-  @media (max-width:370px){
-    #carouselExampleIndicators4{width: 270px;  }
-    #carouselExampleIndicators{width: 270px;  }
-    #carouselExampleIndicators2{width: 270px;  }
-    #carouselExampleIndicators3{width: 270px;  }
-    
-    }
-.nav-bar{
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 999;
-  
-}
-
-.head2{
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 999;
-}
-.section1 span{
-  margin-top: 17px;
-}
-@media (max-width:475px){
-    .section1{
-    height:810px
-    }
-}   
-.to-up{
-  z-index: 999;
-  opacity: 0.8;
-
-
-}
-
-.darkcolortoup{
-  filter: invert(100%) sepia(35%) saturate(183%) hue-rotate(296deg) brightness(110%) contrast(107%);
-}
-#ar{
-  width: 50px;
-}
-.modee{
-  display: flex;
-  flex-direction: row;
-      line-height: 60px;
-
-}
+/* all images of section (end) */
