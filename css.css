@@ -276,7 +276,7 @@ footer {
 }
 @media (max-width: 448px) {
   .section-main {
-    width: 100%;
+    width: 100% !important;
   }
 }
 @media (max-width: 1309px) {
@@ -369,7 +369,7 @@ footer {
     width: 300px;
   }
   .el-asema-content p {
-    font-size: 10px;
+   
   }
   .section-main {
     width: 70%;
